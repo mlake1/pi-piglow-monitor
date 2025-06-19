@@ -1,0 +1,39 @@
+{
+    "pihole_api_url": "http://localhost/admin/api.php",
+    "update_interval": 10,
+    "temperature_warning": 60,
+    "temperature_critical": 70,
+    "cpu_warning": 80,
+    "memory_warning": 85,
+    "brightness_scale": 1.0,
+    "enable_startup_animation": true,
+    "led_mapping": {
+        "pihole_status_arm": 0,
+        "system_health_arm": 1,
+        "network_activity_arm": 2
+    },
+    "colors": {
+        "pihole_enabled": "green",
+        "pihole_disabled": "red",
+        "pihole_error": "orange",
+        "cpu_usage": "blue",
+        "memory_usage": "white",
+        "temperature_warning": "orange",
+        "temperature_critical": "red",
+        "network_queries": "yellow",
+        "blocked_queries": "red"
+    },
+    "thresholds": {
+        "high_cpu": 75,
+        "high_memory": 80,
+        "high_disk": 90,
+        "high_queries_per_minute": 100
+    },
+    "features": {
+        "enable_system_monitoring": true,
+        "enable_network_monitoring": true,
+        "enable_temperature_monitoring": true,
+        "enable_error_alerts": true,
+        "enable_startup_sequence": true
+    }
+}

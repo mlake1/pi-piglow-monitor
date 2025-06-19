@@ -1,0 +1,29 @@
+[Unit]
+Description=Pi-hole PiGlow Monitor
+Documentation=https://github.com/yourusername/pihole-piglow-monitor
+After=network.target pihole-FTL.service
+Wants=pihole-FTL.service
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/opt/pihole-piglow
+ExecStart=/usr/bin/python3 /opt/pihole-piglow/pihole_monitor.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Environment
+Environment=PYTHONUNBUFFERED=1
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/pihole-piglow
+
+[Install]
+WantedBy=multi-user.target
