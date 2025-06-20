@@ -1,6 +1,6 @@
 [Unit]
 Description=Pi-hole PiGlow Monitor
-Documentation=https://github.com/yourusername/pihole-piglow-monitor
+Documentation=https://github.com/mlake1/pihole-piglow-monitor
 After=network.target pihole-FTL.service
 Wants=pihole-FTL.service
 
