@@ -53,7 +53,7 @@ The PiGlow has 18 LEDs arranged in 3 arms with 6 colors each. This monitor uses 
 ### Hardware
 - Raspberry Pi (any model with GPIO)
 - [PiGlow LED add-on board](https://shop.pimoroni.com/products/piglow)
-NOTE: it seems Pimorini has discontined the board, however, some resellers still hold stock
+NOTE: it seems Pimoroni has discontined the board, however, some resellers still hold stock
 - Pi-hole installed and running
 
 ### Software
