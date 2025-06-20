@@ -12,13 +12,12 @@ A beautiful visual status monitor for Pi-hole using the PiGlow LED add-on board 
 
 ## 🎮 Interactive Demo
 
-**[→ Try the Live Demo](https://mlake1.github.io/pihole-piglow-monitor/)** 
+**[→ Try the Live Demo](https://mlake1.github.io/pi-piglow-monitor/)** 
 
-[![Interactive Demo](https://img.shields.io/badge/Demo-Interactive-brightgreen?style=for-the-badge&logo=github)](https://mlake1.github.io/pihole-piglow-monitor/)
+[![Interactive Demo](https://img.shields.io/badge/Demo-Interactive-brightgreen?style=for-the-badge&logo=github)](https://mlake1.github.io/pi-piglow-monitor/)
 
 See exactly how PiGlow will look in action! The interactive demo shows all LED patterns and monitoring states.
 
-![PiGlow Demo](docs/assets/images/demo-preview.png)
 
 ## Features
 
